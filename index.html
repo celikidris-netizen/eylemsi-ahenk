@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="tr"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261005-04-df3a3b1","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/6542d56fbfe7a3eb.telemetry_sdk.js" integrity="sha512-ECdM0nK7EkwDuOqho2qxgyRQXyBHk9hZqRKMBr+Xsu6zjeHlt+qkO2N2YRiHN7Kg4e1fEHDhjIp4bGJYVypv1g=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiilimsiler ve Ahenk Çarkıfelek</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Fraunces:opsz,wght@9..144,700;9..144,800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #17233d;
+      --paper: #fffdf7;
+      --blue: #2458c6;
+      --coral: #ef6a5b;
+      --gold: #f5b942;
+      --mint: #55c4aa;
+      --violet: #7f61d9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 100%;
+      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
+      color: var(--ink);
+      font-family: "DM Sans", sans-serif;
+      background-color: #f5efe3;
+      background-image: radial-gradient(circle at 10% 12%, rgba(245,185,66,.25) 0 5%, transparent 5.2%), radial-gradient(circle at 91% 8%, rgba(85,196,170,.2) 0 7%, transparent 7.2%);
+    }
+    .app-shell { width: 100%; min-height: calc(100 * min(var(--vh, 1vh), 1vh)); padding: 22px; }
+    .title-font { font-family: "Fraunces", serif; }
+    .screen { display: none; width: 100%; animation: rise .45s ease both; }
+    .screen.active { display: block; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .paper-card {
+      background: rgba(255,253,247,.96);
+      border: 3px solid #17233d;
+      box-shadow: 7px 7px 0 #17233d;
+      border-radius: 24px;
+    }
+    .button-main, .button-secondary, .answer-option {
+      transition: transform .16s ease, box-shadow .16s ease, filter .16s ease;
+    }
+    .button-main:hover:not(:disabled), .button-secondary:hover:not(:disabled), .answer-option:hover:not(:disabled) {
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 #17233d;
+    }
+    .button-main:focus-visible, .button-secondary:focus-visible, .answer-option:focus-visible, input:focus-visible, .drop-zone:focus-visible {
+      outline: 4px solid #f5b942;
+      outline-offset: 3px;
+    }
+    .button-main:disabled { opacity: .48; cursor: not-allowed; }
+    .wheel-wrap { position: relative; width: min(78vw, 470px); aspect-ratio: 1; margin: 0 auto; }
+    .wheel-pointer {
+      position: absolute; z-index: 4; top: -5px; left: 50%; transform: translateX(-50%);
+      width: 0; height: 0; border-left: 21px solid transparent; border-right: 21px solid transparent; border-top: 38px solid #ef6a5b;
+      filter: drop-shadow(2px 2px 0 #17233d);
+    }
+    .wheel {
+      width: 100%; height: 100%; border: 7px solid #17233d; border-radius: 50%;
+      background: conic-gradient(
+        #ef6a5b 0deg 12deg, #f5b942 12deg 24deg, #55c4aa 24deg 36deg, #7f61d9 36deg 48deg, #4f91e7 48deg 60deg,
+        #ef6a5b 60deg 72deg, #f5b942 72deg 84deg, #55c4aa 84deg 96deg, #7f61d9 96deg 108deg, #4f91e7 108deg 120deg,
+        #ef6a5b 120deg 132deg, #f5b942 132deg 144deg, #55c4aa 144deg 156deg, #7f61d9 156deg 168deg, #4f91e7 168deg 180deg,
+        #ef6a5b 180deg 192deg, #f5b942 192deg 204deg, #55c4aa 204deg 216deg, #7f61d9 216deg 228deg, #4f91e7 228deg 240deg,
+        #ef6a5b 240deg 252deg, #f5b942 252deg 264deg, #55c4aa 264deg 276deg, #7f61d9 276deg 288deg, #4f91e7 288deg 300deg,
+        #ef6a5b 300deg 312deg, #f5b942 312deg 324deg, #55c4aa 324deg 336deg, #7f61d9 336deg 348deg, #4f91e7 348deg 360deg
+      );
+      position: relative; box-shadow: 8px 9px 0 rgba(23,35,61,.18); transition: transform 3.2s cubic-bezier(.14,.79,.13,1);
+    }
+    .wheel::after { content:""; position:absolute; inset: 40%; background:#fffdf7; border:6px solid #17233d; border-radius:50%; z-index:2; }
+    .wheel-numbers { position:absolute; inset:0; z-index:1; }
+    .wheel-number { position:absolute; left:50%; top:50%; width:25px; margin-left:-12px; margin-top:-11px; font-size:11px; font-weight:800; text-align:center; color:#17233d; transform-origin: 12px 12px; }
+    .wheel-center { position:absolute; inset:0; z-index:3; display:grid; place-items:center; pointer-events:none; }
+    .wheel-center span { width:92px; text-align:center; font-weight:800; line-height:1.05; font-size:13px; }
+    .option-selected { background: #dbeafe !important; border-color: #2458c6 !important; }
+    .option-correct { background: #d8f3e9 !important; border-color: #16846d !important; }
+    .option-wrong { background: #fde0dc !important; border-color: #c44234 !important; }
+    .drop-zone { min-height: 96px; border: 2px dashed #52617b; border-radius: 16px; padding: 10px; background: #f7f3ea; }
+    .drop-zone.active-drop { border-color: #2458c6; background: #e9f1ff; }
+    .draggable-item { cursor: grab; user-select: none; }
+    .draggable-item:active { cursor: grabbing; }
+    .chosen-item { outline: 4px solid #f5b942; }
+    .feedback-good { background: #e4f7ee; border-color: #16846d; }
+    .feedback-bad { background: #fff0ec; border-color: #c44234; }
+    .score-row + .score-row { border-top: 1px solid #d8d0c0; }
+    @media (max-width: 640px) {
+      .app-shell { padding: 14px; }
+      .paper-card { border-radius: 18px; box-shadow: 5px 5px 0 #17233d; }
+      .wheel-wrap { width: min(91vw, 410px); }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/6c2ecc939521f244.data_sdk.js" type="text/javascript" integrity="sha512-gRx8s+XsZDN6mSIQu2sivLZysbV0WHhb5kXNUWlgVb5lCMU1foJYukyMEDPv8Tnoocb8iwqB4XdRrWc7oEGzIQ=="></script>
+  <script src="/_sdk/cfda8dc081c3323c.editing_sdk.js" type="text/javascript" integrity="sha512-dNfMrWh4XAlHjsc8SoR2pkFBBcWdfifAFLC3yNCmnfoD4mTTxOtHMNSuGJMI2GUW0TArNoXmc/EAqYu/Ip9Yiw=="></script>
+  <script src="/_sdk/ab4336f91e694f96.resizing_sdk.js" type="text/javascript" integrity="sha512-cxmeUrBrNlwwLr+tEu/iwM5F3boeK4qDMoH3QjUPqJptkO5NkaDVhQvyIHIn+3EflI5/uubWzkSA78B1tCswgA=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: linear-gradient(135deg, rgb(245, 239, 227), rgb(230, 243, 239));">
+  <div class="app-shell">
+   <header class="max-w-6xl mx-auto mb-5 text-center">
+    <div class="inline-flex items-center gap-2 rounded-full border-2 border-[#17233d] bg-[#f5b942] px-4 py-2 font-bold shadow-[3px_3px_0_#17233d]"><i data-lucide="sparkles" class="w-4 h-4"></i> <span data-template-id="header-badge" class="canva-tag" style="color: rgb(23, 35, 61); font-weight: 700; font-style: normal; font-size: 13px;">TÜRK DİLİ VE EDEBİYATI</span>
+    </div>
+    <h1 data-template-id="page-title" class="canva-text title-font mt-4 font-extrabold leading-tight" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 32px;">Fiilimsiler ve Şiirde Ahenk Unsurları</h1>
+    <p data-template-id="page-subtitle" class="canva-text mt-2 font-medium" style="color: rgb(82, 97, 123); font-weight: 600; font-style: normal; font-size: 18px;">Çarkıfelek Değerlendirme Etkinliği</p>
+   </header>
+   <main class="max-w-6xl mx-auto">
+    <section id="welcome-screen" class="screen active">
+     <div class="paper-card max-w-2xl mx-auto p-6 md:p-9">
+      <div class="flex items-center gap-3">
+       <div class="grid place-items-center h-12 w-12 rounded-2xl border-2 border-[#17233d] bg-[#55c4aa]">
+        <i data-lucide="user-round"></i>
+       </div>
+       <div>
+        <h2 data-template-id="welcome-title" class="canva-text font-extrabold" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 24px;">Önce adını yaz!</h2>
+        <p data-template-id="welcome-helper" class="canva-text mt-1" style="color: rgb(82, 97, 123); font-weight: 400; font-style: normal; font-size: 16px;">Çark senin için rastgele sorular seçecek.</p>
+       </div>
+      </div>
+      <div class="mt-7 rounded-2xl border-2 border-[#17233d] bg-[#fff7d7] p-5">
+       <h3 data-template-id="instruction-title" class="canva-text font-bold" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 18px;">Nasıl oynanır?</h3>
+       <p data-template-id="instruction-text" class="canva-text mt-2 leading-relaxed" style="color: rgb(23, 35, 61); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Çarkı döndür, gelen soruyu yanıtla ve başlangıçta seçtiğin sayıda soru çöz. 5 soruluk kısa turu veya sınırsız seçeneği kullanabilirsin.</p>
+      </div>
+      <form id="name-form" class="mt-7"><label data-template-id="student-name-label" class="canva-text mb-2 block font-bold" for="student-name" style="color: rgb(23, 35, 61); font-weight: 700; font-style: normal; font-size: 16px;">Adın ve soyadın</label> <input id="student-name" type="text" autocomplete="name" maxlength="40" class="w-full rounded-xl border-2 border-[#17233d] bg-white px-4 py-3 text-lg font-semibold text-[#17233d]"> <label data-template-id="question-count-label" class="canva-text mb-2 mt-5 block font-bold" for="question-count" style="color: rgb(23, 35, 61); font-weight: 700; font-style: normal; font-size: 16px;">Kaç soru çözmek istersin?</label> <select id="question-count" class="w-full rounded-xl border-2 border-[#17233d] bg-white px-4 py-3 text-lg font-semibold text-[#17233d]" aria-describedby="question-count-help"> <option value="5">5 soru çöz</option> <option value="all">Sınırsız soru çöz</option> </select>
+       <p id="question-count-help" data-template-id="question-count-help" class="canva-text mt-2 text-sm leading-relaxed" style="color: rgb(82, 97, 123); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.45;">5 soruluk kısa turu veya soru havuzundaki tüm soruları seçebilirsin.</p>
+       <p id="name-error" class="mt-2 hidden text-sm font-bold text-[#c44234]" aria-live="polite">Lütfen etkinliğe başlamak için adını yaz.</p><button data-template-id="start-button" class="canva-button button-main mt-5 flex w-full items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] px-5 py-3 font-extrabold" type="submit" style="background: rgb(36, 88, 198); color: rgb(255, 255, 255); font-weight: 800; font-size: 17px;"> <i data-lucide="play" class="w-5 h-5"></i> <span data-template-id="start-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 17px;">Etkinliği Başlat</span> </button>
+      </form>
+     </div>
+    </section>
+    <section id="game-screen" class="screen">
+     <div class="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(340px,1fr)] items-start">
+      <section class="paper-card p-5 md:p-7 text-center">
+       <div class="flex items-center justify-between gap-3 text-left">
+        <div>
+         <p class="text-xs font-extrabold uppercase tracking-[.16em] text-[#52617b]">Öğrenci</p>
+         <p id="student-display" class="font-extrabold text-lg"></p>
+        </div>
+        <div class="rounded-xl border-2 border-[#17233d] bg-[#dcecff] px-3 py-2 text-center"><span class="block text-xs font-bold">İLERLEME</span> <span id="progress-display" class="text-xl font-extrabold">0/5</span><span id="skipped-progress" class="mt-1 block text-xs font-bold text-[#c44234]" aria-live="polite">Atlanan: 0</span>
+        </div>
+       </div>
+       <div class="wheel-wrap mt-7" aria-label="30 soruluk çarkıfelek">
+        <div class="wheel-pointer" aria-hidden="true"></div>
+        <div id="wheel" class="wheel"></div>
+        <div id="wheel-numbers" class="wheel-numbers" aria-hidden="true"></div>
+        <div class="wheel-center">
+         <span id="wheel-center-text">ÇARKI<br>
+           DÖNDÜR</span>
+        </div>
+       </div>
+       <div id="selected-label" class="mt-6 min-h-12 rounded-xl border-2 border-dashed border-[#52617b] px-4 py-3 font-bold text-[#52617b]" aria-live="polite">
+        Hazır olduğunda çarkı döndür!
+       </div><button id="spin-button" data-template-id="spin-button" class="canva-button button-main mt-5 inline-flex items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] px-6 py-3 font-extrabold" type="button" style="background: rgb(239, 106, 91); color: rgb(255, 255, 255); font-weight: 800; font-size: 17px;"> <i data-lucide="rotate-cw" class="w-5 h-5"></i> <span data-template-id="spin-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 17px;">Çarkı Döndür</span> </button>
+      </section>
+      <section class="paper-card p-5 md:p-7 min-h-[430px]">
+       <div id="question-placeholder" class="flex h-full min-h-[360px] flex-col items-center justify-center text-center">
+        <div class="grid h-16 w-16 place-items-center rounded-full border-2 border-[#17233d] bg-[#f5b942]">
+         <i data-lucide="circle-help" class="w-8 h-8"></i>
+        </div>
+        <h2 data-template-id="question-placeholder-title" class="canva-text mt-5 font-extrabold" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 24px;">Soru kartın burada görünecek</h2>
+        <p data-template-id="question-placeholder-text" class="canva-text mt-2 max-w-sm leading-relaxed" style="color: rgb(82, 97, 123); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Renkli çarkı döndür; fiilimsiler veya şiirde ahenk konusundan sürpriz bir soru gelsin!</p>
+       </div>
+       <div id="question-content" class="hidden">
+        <div class="flex flex-wrap items-center justify-between gap-3"><span id="topic-tag" class="rounded-full border-2 border-[#17233d] bg-[#55c4aa] px-3 py-1 text-sm font-extrabold"></span> <span id="question-kind" class="text-sm font-bold text-[#52617b]"></span>
+        </div>
+        <h2 id="question-text" class="mt-5 text-xl md:text-2xl font-extrabold leading-snug"></h2>
+        <div id="answer-area" class="mt-6"></div>
+        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+         <button id="check-button" data-template-id="check-button" class="canva-button button-main flex w-full items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] px-5 py-3 font-extrabold" type="button" style="background: rgb(36, 88, 198); color: rgb(255, 255, 255); font-weight: 800; font-size: 17px;"> <i data-lucide="check-circle-2" class="w-5 h-5"></i> <span data-template-id="check-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 17px;">Yanıtımı Kontrol Et</span> </button><button id="skip-button" data-template-id="skip-button" class="canva-button button-secondary flex w-full items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] bg-[#fff7d7] px-5 py-3 font-extrabold" type="button" style="background: rgb(255, 247, 215); color: rgb(23, 35, 61); font-weight: 800; font-size: 17px;"> <i data-lucide="skip-forward" class="w-5 h-5"></i> <span data-template-id="skip-button-label" class="canva-text" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 17px;">Soruyu Atla</span> </button>
+        </div>
+        <p id="answer-error" class="mt-3 hidden text-center text-sm font-bold text-[#c44234]" aria-live="polite">Yanıtını seç veya yazdıktan sonra kontrol edebilirsin.</p>
+       </div>
+       <div id="feedback-panel" class="hidden mt-5 rounded-2xl border-2 p-5" aria-live="polite">
+        <div class="flex items-start gap-3">
+         <div id="feedback-icon" class="grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-[#17233d]"></div>
+         <div>
+          <h3 id="feedback-title" class="text-xl font-extrabold"></h3>
+          <p id="feedback-answer" class="mt-2 font-bold"></p>
+          <p id="feedback-explanation" class="mt-2 leading-relaxed"></p>
+          <p id="feedback-score" class="mt-3 text-lg font-extrabold"></p>
+         </div>
+        </div>
+        <div class="mt-5 grid gap-3 sm:grid-cols-2"><button id="finish-button" data-template-id="finish-button" class="canva-button button-secondary flex items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] px-4 py-3 font-extrabold" type="button" style="background: rgb(245, 185, 66); color: rgb(23, 35, 61); font-weight: 800;"> <i data-lucide="flag" class="w-5 h-5"></i> <span data-template-id="finish-button-label" class="canva-text" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 16px;">Bitir ve Puanla</span> </button> <button id="continue-button" data-template-id="continue-button" class="canva-button button-main flex items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] px-4 py-3 font-extrabold" type="button" style="background: rgb(85, 196, 170); color: rgb(23, 35, 61); font-weight: 800;"> <i data-lucide="rotate-cw" class="w-5 h-5"></i> <span data-template-id="continue-button-label" class="canva-text" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 16px;">Çarkı Döndür</span> </button>
+        </div>
+       </div>
+      </section>
+     </div>
+    </section>
+    <section id="results-screen" class="screen">
+     <div class="grid gap-6 lg:grid-cols-[1.15fr_.85fr]">
+      <section class="paper-card p-6 md:p-9">
+       <div class="flex items-center gap-3">
+        <div class="grid h-14 w-14 place-items-center rounded-2xl border-2 border-[#17233d] bg-[#f5b942]">
+         <i data-lucide="trophy" class="w-7 h-7"></i>
+        </div>
+        <div>
+         <p data-template-id="result-kicker" class="canva-text text-sm font-extrabold uppercase tracking-[.15em]" style="color: rgb(82, 97, 123); font-weight: 800; font-style: normal; font-size: 13px; letter-spacing: 0.1rem;">ETKİNLİK SONUCU</p>
+         <h2 data-template-id="result-title" class="canva-text title-font mt-1 font-extrabold" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 24px;">Bravo, turu tamamladın!</h2>
+        </div>
+       </div>
+       <p id="result-name" class="mt-7 text-2xl font-extrabold"></p>
+       <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div class="rounded-2xl border-2 border-[#17233d] bg-[#dcecff] p-4 text-center">
+         <span class="block text-xs font-bold">ÇÖZÜLEN</span><strong id="result-solved" class="text-3xl">0</strong>
+        </div>
+        <div class="rounded-2xl border-2 border-[#17233d] bg-[#e4f7ee] p-4 text-center">
+         <span class="block text-xs font-bold">DOĞRU</span><strong id="result-correct" class="text-3xl">0</strong>
+        </div>
+        <div class="rounded-2xl border-2 border-[#17233d] bg-[#fff2cb] p-4 text-center">
+         <span class="block text-xs font-bold">PUAN</span><strong id="result-score" class="text-3xl">0</strong>
+        </div>
+        <div class="rounded-2xl border-2 border-[#17233d] bg-[#f1ebff] p-4 text-center">
+         <span class="block text-xs font-bold">BAŞARI</span><strong id="result-percent" class="text-3xl">0%</strong>
+        </div>
+        <div class="rounded-2xl border-2 border-[#17233d] bg-[#fff0ec] p-4 text-center">
+         <span class="block text-xs font-bold">ATLANAN</span><strong id="result-skipped" class="text-3xl">0</strong>
+        </div>
+       </div>
+       <p id="result-feedback" class="mt-6 rounded-xl border-2 border-[#17233d] bg-[#fff7d7] p-4 font-bold leading-relaxed"></p><button id="new-student-button" data-template-id="new-student-button" class="canva-button button-main mt-7 flex w-full items-center justify-center gap-2 rounded-xl border-2 border-[#17233d] px-5 py-3 font-extrabold" type="button" style="background: rgb(36, 88, 198); color: rgb(255, 255, 255); font-weight: 800; font-size: 17px;"> <i data-lucide="user-plus" class="w-5 h-5"></i> <span data-template-id="new-student-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 17px;">Yeni Öğrenci</span> </button>
+      </section>
+      <aside class="paper-card p-6">
+       <div class="flex items-center gap-3"><i data-lucide="list-ordered" class="w-6 h-6"></i>
+        <h2 data-template-id="scoreboard-title" class="canva-text font-extrabold" style="color: rgb(23, 35, 61); font-weight: 800; font-style: normal; font-size: 24px;">Sınıf Mini Skor Tablosu</h2>
+       </div>
+       <p data-template-id="scoreboard-helper" class="canva-text mt-2 text-sm leading-relaxed" style="color: rgb(82, 97, 123); font-weight: 400; font-style: normal; font-size: 14px; line-height: 1.45;">Bu açık oturumda etkinliği tamamlayan öğrencilerin sonuçları burada görünür.</p>
+       <div id="scoreboard-list" class="mt-5 overflow-hidden rounded-xl border-2 border-[#17233d] bg-white">
+        <p id="scoreboard-empty" class="p-5 text-center text-sm font-bold text-[#52617b]">Henüz sonuç yok.</p>
+       </div>
+      </aside>
+     </div>
+    </section>
+   </main>
+  </div>
+  <script>
+    const questions = [
+      {id:1,type:"choice",topic:"Fiilimsiler",text:"“Sabah erken kalkmak, günün ritmini değiştirir.” cümlesindeki fiilimsi hangisidir?",options:["erken","kalkmak","günün","değiştirir"],answer:1,correctText:"kalkmak",explanation:"“-mak” eki alan kalkmak sözcüğü isim-fiildir.",points:10},
+      {id:2,type:"choice",topic:"Fiilimsiler",text:"“Bahçede uçuşan kelebekler renkli bir tablo gibiydi.” cümlesinde sıfat-fiil olan sözcük hangisidir?",options:["Bahçede","uçuşan","renkli","gibiydi"],answer:1,correctText:"uçuşan",explanation:"“-an” eki alan uçuşan, kelebekleri nitelediği için sıfat-fiildir.",points:10},
+      {id:3,type:"choice",topic:"Fiilimsiler",text:"“Ders çalışırken telefonunu sessize aldı.” cümlesindeki zarf-fiil hangisidir?",options:["Ders","çalışırken","telefonunu","sessize"],answer:1,correctText:"çalışırken",explanation:"“-ken” eki eylemin yapılma zamanını bildiren zarf-fiil oluşturur.",points:10},
+      {id:4,type:"choice",topic:"Fiilimsiler",text:"Aşağıdaki cümlelerin hangisinde isim-fiil vardır?",options:["Koşan çocuk kapıyı açtı.","Gülerek sınıfa girdi.","Resim yapmak beni dinlendirir.","Yıpranmış defter masadaydı."],answer:2,correctText:"Resim yapmak beni dinlendirir.",explanation:"Yapmak sözcüğü “resim”le birlikte cümlede özne görevindeki isim-fiildir.",points:10},
+      {id:5,type:"choice",topic:"Fiilimsiler",text:"“Söylediği sözler herkesi etkiledi.” cümlesinde “söylediği” sözcüğünün türü nedir?",options:["İsim-fiil","Sıfat-fiil","Zarf-fiil","Çekimli fiil"],answer:1,correctText:"Sıfat-fiil",explanation:"Söylediği, “sözler” ismini nitelediği için sıfat-fiildir.",points:10},
+      {id:6,type:"choice",topic:"Şiirde Ahenk",text:"“Gecede gezinen gizli gölgeler” dizesinde belirgin biçimde tekrarlanan ünsüz hangisidir?",options:["g","l","r","t"],answer:0,correctText:"g",explanation:"“g” sesinin tekrarı aliterasyon oluşturarak dizeye akıcılık katar.",points:10},
+      {id:7,type:"choice",topic:"Şiirde Ahenk",text:"“Yollar uzar, yıllar geçer / Gönül aynı düşü seçer” dizelerinde ses benzerliği hangi ahenk unsuruyla ilişkilidir?",options:["Redif","Kafiye","Ölçü","Asonans"],answer:1,correctText:"Kafiye",explanation:"Dize sonlarındaki “geçer / seçer” ses benzerliği kafiyedir.",points:10},
+      {id:8,type:"choice",topic:"Şiirde Ahenk",text:"Bir şiirde her dizedeki hece sayısının eşit olması hangi unsuru gösterir?",options:["Ölçü","Redif","Teşbih","Tema"],answer:0,correctText:"Ölçü",explanation:"Dizelerde eşit hece sayısı, hece ölçüsüyle sağlanan ahenktir.",points:10},
+      {id:9,type:"choice",topic:"Şiirde Ahenk",text:"“Bir gün yine gelirim / Bir gün seni severim” dizelerindeki “bir gün” sözü hangi ahenk unsurunu güçlendirir?",options:["Tekrar","Kafiye","Asonans","Ölçü"],answer:0,correctText:"Tekrar",explanation:"Aynı söz grubunun yinelenmesi şiirde ritim ve vurgu oluşturur.",points:10},
+      {id:10,type:"choice",topic:"Şiirde Ahenk",text:"“Sular susar, kumlar uyur” dizesinde “u” ünlüsünün tekrarı hangi kavramdır?",options:["Aliterasyon","Asonans","Redif","Cinas"],answer:1,correctText:"Asonans",explanation:"Ünlü seslerin tekrarı asonans olarak adlandırılır.",points:10},
+
+      {id:11,type:"fill",topic:"Fiilimsiler",text:"“Kitap okumayı çok seviyorum.” cümlesinde “okumayı” sözcüğü bir ______ fiildir.",answers:["isim","isim fiil","isim-fiil"],correctText:"isim-fiil",explanation:"“-ma” ekiyle kurulan okumayı sözcüğü isim-fiildir.",points:10},
+      {id:12,type:"fill",topic:"Fiilimsiler",text:"“Kırılan vazo dikkatle toplandı.” cümlesinde “kırılan” bir ______ fiildir.",answers:["sıfat","sıfat fiil","sıfat-fiil"],correctText:"sıfat-fiil",explanation:"Kırılan sözcüğü “vazo”yu nitelediği için sıfat-fiildir.",points:10},
+      {id:13,type:"fill",topic:"Fiilimsiler",text:"“Koşup otobüse yetişti.” cümlesindeki “koşup” sözcüğü ______ fiildir.",answers:["zarf","zarf fiil","zarf-fiil"],correctText:"zarf-fiil",explanation:"“-ıp” eki eylemleri bağlayan zarf-fiil eklerinden biridir.",points:10},
+      {id:14,type:"fill",topic:"Fiilimsiler",text:"“Gezilecek yerleri not ettik.” cümlesinde “gezilecek” sözcüğünün aldığı sıfat-fiil eki ______ ekidir.",answers:["-ecek","ecek","acak","-acak"],correctText:"-ecek / -acak",explanation:"“-ecek/-acak” gelecek zaman anlamlı sıfat-fiil ekidir.",points:10},
+      {id:15,type:"fill",topic:"Fiilimsiler",text:"“Onu görünce sevindim.” cümlesinde “görünce” sözcüğü eylemin ______ bildirir.",answers:["zamanını","zaman","vaktini"],correctText:"zamanını",explanation:"Zarf-fiiller, temel eylemin zamanını veya durumunu bildirebilir.",points:10},
+      {id:16,type:"fill",topic:"Şiirde Ahenk",text:"Dize sonlarında görev ve anlamı aynı olan ek ya da sözcük tekrarına ______ denir.",answers:["redif"],correctText:"redif",explanation:"Aynı görev ve anlamdaki ek veya sözcük tekrarları rediftir.",points:10},
+      {id:17,type:"fill",topic:"Şiirde Ahenk",text:"Ünsüz harflerin tekrarıyla oluşturulan ses ahengine ______ adı verilir.",answers:["aliterasyon"],correctText:"aliterasyon",explanation:"Aliterasyon, ünsüz seslerin tekrarından doğar.",points:10},
+      {id:18,type:"fill",topic:"Şiirde Ahenk",text:"Ünlü harflerin tekrarına dayanan ahenk unsurunun adı ______dur.",answers:["asonans"],correctText:"asonans",explanation:"Asonans, ünlü seslerin tekrarıyla oluşturulur.",points:10},
+      {id:19,type:"fill",topic:"Şiirde Ahenk",text:"“Dağlar çağlar, bağlar ağlar” dizesinde “-lar” eki aynı görevle tekrarlandığı için ______ oluşturur.",answers:["redif"],correctText:"redif",explanation:"“-lar” eki iki sözcükte de aynı çoğul görevindedir; bu nedenle rediftir.",points:10},
+      {id:20,type:"fill",topic:"Şiirde Ahenk",text:"Şiirde düzenli vurgu ve ses akışıyla hissedilen devinime ______ denir.",answers:["ritim","ahenk"],correctText:"ritim",explanation:"Ritim, şiirin düzenli ses ve vurgu akışıdır.",points:10},
+
+      {id:21,type:"drag",topic:"Fiilimsiler",text:"Sözcükleri doğru fiilimsi türüne yerleştir.",items:["yüzmek","gülen","bakınca"],zones:["İsim-fiil","Sıfat-fiil","Zarf-fiil"],solution:{"yüzmek":"İsim-fiil","gülen":"Sıfat-fiil","bakınca":"Zarf-fiil"},correctText:"yüzmek → İsim-fiil, gülen → Sıfat-fiil, bakınca → Zarf-fiil",explanation:"“-mek” isim-fiil, “-en” sıfat-fiil, “-ınca” zarf-fiil ekidir.",points:10},
+      {id:22,type:"drag",topic:"Fiilimsiler",text:"Sözcükleri doğru fiilimsi türüne yerleştir.",items:["yazma","solmuş","gülerek"],zones:["İsim-fiil","Sıfat-fiil","Zarf-fiil"],solution:{"yazma":"İsim-fiil","solmuş":"Sıfat-fiil","gülerek":"Zarf-fiil"},correctText:"yazma → İsim-fiil, solmuş → Sıfat-fiil, gülerek → Zarf-fiil",explanation:"Sözcüklerin ekleri, fiilimsi türlerini belirlememize yardım eder.",points:10},
+      {id:23,type:"drag",topic:"Fiilimsiler",text:"İfadeleri doğru göreve yerleştir.",items:["koşmayı seviyor","akan su","gelince haber ver"],zones:["İsim-fiil","Sıfat-fiil","Zarf-fiil"],solution:{"koşmayı seviyor":"İsim-fiil","akan su":"Sıfat-fiil","gelince haber ver":"Zarf-fiil"},correctText:"koşmayı seviyor → İsim-fiil, akan su → Sıfat-fiil, gelince haber ver → Zarf-fiil",explanation:"Fiilimsinin cümledeki görevi, türünü anlamayı kolaylaştırır.",points:10},
+      {id:24,type:"drag",topic:"Fiilimsiler",text:"Sözcükleri doğru fiilimsi türüne yerleştir.",items:["dinlenmek","silinecek","dinleyip"],zones:["İsim-fiil","Sıfat-fiil","Zarf-fiil"],solution:{"dinlenmek":"İsim-fiil","silinecek":"Sıfat-fiil","dinleyip":"Zarf-fiil"},correctText:"dinlenmek → İsim-fiil, silinecek → Sıfat-fiil, dinleyip → Zarf-fiil",explanation:"“-mek”, “-ecek” ve “-ip” ekleri farklı fiilimsi türleri kurar.",points:10},
+      {id:25,type:"drag",topic:"Fiilimsiler",text:"Sözcükleri doğru fiilimsi türüne yerleştir.",items:["gezmek","bekleyen","okudukça"],zones:["İsim-fiil","Sıfat-fiil","Zarf-fiil"],solution:{"gezmek":"İsim-fiil","bekleyen":"Sıfat-fiil","okudukça":"Zarf-fiil"},correctText:"gezmek → İsim-fiil, bekleyen → Sıfat-fiil, okudukça → Zarf-fiil",explanation:"“-dikçe” eki, eylemin durumunu belirten zarf-fiil oluşturur.",points:10},
+      {id:26,type:"drag",topic:"Şiirde Ahenk",text:"Örnekleri doğru ahenk unsuruyla eşleştir.",items:["m, n seslerinin tekrarı","a, e seslerinin tekrarı","aynı sözcüğün yinelenmesi"],zones:["Aliterasyon","Asonans","Tekrar"],solution:{"m, n seslerinin tekrarı":"Aliterasyon","a, e seslerinin tekrarı":"Asonans","aynı sözcüğün yinelenmesi":"Tekrar"},correctText:"Ünsüz tekrarları → Aliterasyon, ünlü tekrarları → Asonans, sözcük yinelenmesi → Tekrar",explanation:"Ahenk unsurlarını seslerin veya sözlerin tekrarına göre ayırt edebiliriz.",points:10},
+      {id:27,type:"drag",topic:"Şiirde Ahenk",text:"Kavramları doğru açıklamayla eşleştir.",items:["Dize sonundaki ses benzerliği","Aynı görevli ek tekrarı","Her dizede eşit hece"],zones:["Kafiye","Redif","Ölçü"],solution:{"Dize sonundaki ses benzerliği":"Kafiye","Aynı görevli ek tekrarı":"Redif","Her dizede eşit hece":"Ölçü"},correctText:"Ses benzerliği → Kafiye, aynı görevli ek → Redif, eşit hece → Ölçü",explanation:"Kafiye, redif ve ölçü şiirin farklı yollarla ahenk kazanmasını sağlar.",points:10},
+      {id:28,type:"drag",topic:"Şiirde Ahenk",text:"Örnekleri doğru ahenk unsuruyla eşleştir.",items:["“sessiz sular sarardı”","“uzun yollar yoruldu”","“Dön, dön, dön ey rüzgâr”"],zones:["Aliterasyon","Asonans","Tekrar"],solution:{"“sessiz sular sarardı”":"Aliterasyon","“uzun yollar yoruldu”":"Asonans","“Dön, dön, dön ey rüzgâr”":"Tekrar"},correctText:"s tekrarı → Aliterasyon, u/o tekrarı → Asonans, dön sözcüğü → Tekrar",explanation:"Dizelerde sesleri ve yinelenen sözleri dikkatle dinlemek gerekir.",points:10},
+      {id:29,type:"drag",topic:"Şiirde Ahenk",text:"Dize sonlarını doğru kavramla eşleştir.",items:["“gülerim / severim”","“yolda / kolda”","“giderim / gelir im”"],zones:["Kafiye","Redif","Ritim"],solution:{"“gülerim / severim”":"Redif","“yolda / kolda”":"Kafiye","“giderim / gelir im”":"Ritim"},correctText:"gülerim/severim → Redif, yolda/kolda → Kafiye, düzenli akış → Ritim",explanation:"Bu etkinlikte ritim, düzenli okunuş ve vurgu akışını temsil eder.",points:10},
+      {id:30,type:"drag",topic:"Şiirde Ahenk",text:"Ahenk unsurunu etkisine göre yerleştir.",items:["Dizeyi melodik ve düzenli kılar","Ünlü seslerle yumuşaklık verir","Aynı sözle vurguyu artırır"],zones:["Ritim","Asonans","Tekrar"],solution:{"Dizeyi melodik ve düzenli kılar":"Ritim","Ünlü seslerle yumuşaklık verir":"Asonans","Aynı sözle vurguyu artırır":"Tekrar"},correctText:"Melodik düzen → Ritim, ünlü tekrarı → Asonans, vurgu → Tekrar",explanation:"Şairler ahenk unsurlarını duyguyu daha etkili hissettirmek için kullanır.",points:10}
+    ];
+
+    let studentName = "";
+    let questionLimit = 5;
+    let usedIds = [];
+    let currentQuestion = null;
+    let solvedCount = 0;
+    let skippedCount = 0;
+    let correctCount = 0;
+    let totalScore = 0;
+    let wheelRotation = 0;
+    let selectedOption = null;
+    let selectedDragItem = null;
+    let sessionScores = [];
+
+    const $ = (id) => document.getElementById(id);
+
+    function showScreen(id) {
+      document.querySelectorAll(".screen").forEach(screen => screen.classList.remove("active"));
+      $(id).classList.add("active");
+    }
+
+    function normalize(value) {
+      return value.toLocaleLowerCase("tr-TR").replace(/ı/g, "i").replace(/[^\p{L}\p{N}]+/gu, " ").trim().replace(/\s+/g, " ");
+    }
+
+    function buildWheelNumbers() {
+      const holder = $("wheel-numbers");
+      for (let i = 1; i <= 30; i++) {
+        const angle = (i - 1) * 12 + 6;
+        const radius = 43;
+        const el = document.createElement("span");
+        el.className = "wheel-number";
+        el.textContent = i;
+        el.style.transform = `rotate(${angle}deg) translateY(-${radius}%) rotate(${-angle}deg)`;
+        holder.appendChild(el);
+      }
+    }
+
+    function updateProgress() {
+      const limit = questionLimit === Infinity ? questions.length : Math.min(questionLimit, questions.length);
+      $("progress-display").textContent = `${solvedCount + skippedCount}/${limit}`;
+      $("skipped-progress").textContent = `Atlanan: ${skippedCount}`;
+    }
+
+    function beginActivity(event) {
+      event.preventDefault();
+      const name = $("student-name").value.trim();
+      if (!name) {
+        $("name-error").classList.remove("hidden");
+        $("student-name").focus();
+        return;
+      }
+      $("name-error").classList.add("hidden");
+      studentName = name;
+      questionLimit = $("question-count").value === "all" ? Infinity : 5;
+      usedIds = [];
+      currentQuestion = null;
+      solvedCount = 0;
+      skippedCount = 0;
+      correctCount = 0;
+      totalScore = 0;
+      $("student-display").textContent = studentName;
+      $("selected-label").textContent = "Hazır olduğunda çarkı döndür!";
+      $("wheel-center-text").innerHTML = "ÇARKI<br>DÖNDÜR";
+      $("question-placeholder").classList.remove("hidden");
+      $("question-content").classList.add("hidden");
+      $("feedback-panel").classList.add("hidden");
+      $("spin-button").disabled = false;
+      updateProgress();
+      showScreen("game-screen");
+    }
+
+    function spinWheel() {
+      if (currentQuestion || solvedCount >= Math.min(questionLimit, questions.length)) return;
+      const available = questions.filter(q => !usedIds.includes(q.id));
+      const question = available[Math.floor(Math.random() * available.length)];
+      $("spin-button").disabled = true;
+      $("selected-label").textContent = "Çark dönüyor... soru aranıyor!";
+      const targetAngle = (question.id - 1) * 12 + 6;
+      wheelRotation += 1440 + (360 - targetAngle);
+      $("wheel").style.transform = `rotate(${wheelRotation}deg)`;
+
+      setTimeout(() => {
+        currentQuestion = question;
+        usedIds.push(question.id);
+        $("wheel-center-text").innerHTML = `SORU<br>${question.id}`;
+        $("selected-label").innerHTML = `<strong>${question.id}. soru seçildi:</strong> ${question.topic}`;
+        $("question-placeholder").classList.add("hidden");
+        $("question-content").classList.remove("hidden");
+        $("feedback-panel").classList.add("hidden");
+        renderQuestion(question);
+        $("spin-button").disabled = false;
+      }, 3200);
+    }
+
+    function renderQuestion(question) {
+      selectedOption = null;
+      selectedDragItem = null;
+      $("answer-error").classList.add("hidden");
+      $("topic-tag").textContent = question.topic;
+      $("question-kind").textContent = question.type === "choice" ? "Çoktan seçmeli" : question.type === "fill" ? "Boşluk doldurma" : "Sürükle-bırak";
+      $("question-text").textContent = question.text;
+      const area = $("answer-area");
+      area.innerHTML = "";
+
+      if (question.type === "choice") {
+        const list = document.createElement("div");
+        list.className = "grid gap-3";
+        question.options.forEach((option, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "answer-option w-full rounded-xl border-2 border-[#17233d] bg-white px-4 py-3 text-left font-bold";
+          button.innerHTML = `<span class="mr-3 inline-grid h-7 w-7 place-items-center rounded-full border-2 border-[#17233d] bg-[#fff7d7] text-sm">${String.fromCharCode(65 + index)}</span>${option}`;
+          button.addEventListener("click", () => {
+            document.querySelectorAll(".answer-option").forEach(item => item.classList.remove("option-selected"));
+            button.classList.add("option-selected");
+            selectedOption = index;
+          });
+          list.appendChild(button);
+        });
+        area.appendChild(list);
+      }
+
+      if (question.type === "fill") {
+        const label = document.createElement("label");
+        label.className = "mb-2 block font-bold";
+        label.htmlFor = "fill-answer";
+        label.textContent = "Cevabını yaz:";
+        const input = document.createElement("input");
+        input.id = "fill-answer";
+        input.type = "text";
+        input.autocomplete = "off";
+        input.className = "w-full rounded-xl border-2 border-[#17233d] bg-white px-4 py-3 text-lg font-semibold";
+        input.addEventListener("keydown", event => { if (event.key === "Enter") checkAnswer(); });
+        area.append(label, input);
+      }
+
+      if (question.type === "drag") renderDragQuestion(question, area);
+    }
+
+    function renderDragQuestion(question, area) {
+      const help = document.createElement("p");
+      help.className = "mb-4 rounded-xl bg-[#dcecff] p-3 text-sm font-bold";
+      help.textContent = "İfadeyi sürükleyip kutuya bırak. Dokunmatik kullanımda: önce ifadeye, sonra hedef kutuya dokun.";
+      area.appendChild(help);
+
+      const bank = document.createElement("div");
+      bank.id = "item-bank";
+      bank.className = "flex flex-wrap gap-2 rounded-xl border-2 border-[#17233d] bg-white p-3";
+      const distractors = questions
+        .filter(other => other.type === "drag" && other.id !== question.id)
+        .flatMap(other => other.items)
+        .filter(item => !question.items.includes(item))
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 2);
+      [...question.items, ...distractors]
+        .sort(() => Math.random() - 0.5)
+        .forEach(item => bank.appendChild(createDragItem(item)));
+      area.appendChild(bank);
+
+      const zones = document.createElement("div");
+      zones.className = "mt-4 grid gap-3";
+      [...question.zones].sort(() => Math.random() - 0.5).forEach(zoneName => {
+        const wrapper = document.createElement("div");
+        const title = document.createElement("p");
+        title.className = "mb-1 font-extrabold";
+        title.textContent = zoneName;
+        const zone = document.createElement("div");
+        zone.className = "drop-zone";
+        zone.tabIndex = 0;
+        zone.dataset.zone = zoneName;
+        zone.setAttribute("aria-label", zoneName + " bırakma alanı");
+        zone.addEventListener("dragover", event => { event.preventDefault(); zone.classList.add("active-drop"); });
+        zone.addEventListener("dragleave", () => zone.classList.remove("active-drop"));
+        zone.addEventListener("drop", event => {
+          event.preventDefault();
+          zone.classList.remove("active-drop");
+          const item = event.dataTransfer.getData("text/plain");
+          moveItemToZone(item, zone);
+        });
+        zone.addEventListener("click", () => {
+          if (selectedDragItem) moveItemToZone(selectedDragItem, zone);
+        });
+        zone.addEventListener("keydown", event => {
+          if ((event.key === "Enter" || event.key === " ") && selectedDragItem) {
+            event.preventDefault();
+            moveItemToZone(selectedDragItem, zone);
+          }
+        });
+        wrapper.append(title, zone);
+        zones.appendChild(wrapper);
+      });
+      area.appendChild(zones);
+    }
+
+    function createDragItem(text) {
+      const item = document.createElement("button");
+      item.type = "button";
+      item.draggable = true;
+      item.dataset.item = text;
+      item.className = "draggable-item rounded-lg border-2 border-[#17233d] bg-[#fff7d7] px-3 py-2 text-left text-sm font-bold";
+      item.textContent = text;
+      item.addEventListener("dragstart", event => event.dataTransfer.setData("text/plain", text));
+      item.addEventListener("click", () => {
+        document.querySelectorAll(".draggable-item").forEach(el => el.classList.remove("chosen-item"));
+        selectedDragItem = text;
+        item.classList.add("chosen-item");
+      });
+      return item;
+    }
+
+    function moveItemToZone(text, zone) {
+      const item = document.querySelector(`.draggable-item[data-item="${CSS.escape(text)}"]`);
+      if (!item) return;
+      zone.appendChild(item);
+      document.querySelectorAll(".draggable-item").forEach(el => el.classList.remove("chosen-item"));
+      selectedDragItem = null;
+    }
+
+    function checkAnswer() {
+      if (!currentQuestion) return;
+      let correct = false;
+      const q = currentQuestion;
+
+      if (q.type === "choice") {
+        if (selectedOption === null) return $("answer-error").classList.remove("hidden");
+        correct = selectedOption === q.answer;
+        document.querySelectorAll(".answer-option").forEach((button, index) => {
+          button.disabled = true;
+          if (index === q.answer) button.classList.add("option-correct");
+          if (index === selectedOption && !correct) button.classList.add("option-wrong");
+        });
+      }
+
+      if (q.type === "fill") {
+        const value = $("fill-answer").value;
+        if (!value.trim()) {
+          $("answer-error").textContent = "Cevabını yazdıktan sonra kontrol edebilirsin.";
+          return $("answer-error").classList.remove("hidden");
+        }
+        correct = q.answers.map(normalize).includes(normalize(value));
+        $("fill-answer").disabled = false;
+        $("fill-answer").classList.remove("border-[#16846d]", "bg-[#e4f7ee]", "border-[#c44234]", "bg-[#fff0ec]");
+        $("fill-answer").classList.add(correct ? "border-[#16846d]" : "border-[#c44234]", correct ? "bg-[#e4f7ee]" : "bg-[#fff0ec]");
+      }
+
+      if (q.type === "drag") {
+        const placed = document.querySelectorAll(".drop-zone .draggable-item");
+        if (placed.length !== q.items.length) {
+          $("answer-error").textContent = `Tüm ${q.zones.length} sekmeyi doğru cevaplarla doldurmalısın.`;
+          return $("answer-error").classList.remove("hidden");
+        }
+        const wrong = [...placed].filter(item => item.closest(".drop-zone").dataset.zone !== q.solution[item.dataset.item]);
+        correct = wrong.length === 0;
+        if (!correct) {
+          $("answer-error").textContent = "Bazı eşleştirmeler yanlış. İfadeyi başka bir sekmeye taşıyıp tekrar dene.";
+          $("answer-error").classList.remove("hidden");
+          return;
+        }
+        document.querySelectorAll(".draggable-item").forEach(item => item.disabled = true);
+      }
+
+      solvedCount++;
+      if (correct) { correctCount++; totalScore += q.points; }
+      showFeedback(correct, q);
+      updateProgress();
+    }
+
+    function showFeedback(correct, q) {
+      $("check-button").classList.toggle("hidden", correct);
+      const panel = $("feedback-panel");
+      panel.classList.remove("hidden", "feedback-good", "feedback-bad");
+      panel.classList.add(correct ? "feedback-good" : "feedback-bad");
+      $("feedback-icon").innerHTML = correct ? '<i data-lucide="badge-check" class="w-6 h-6"></i>' : '<i data-lucide="book-open-check" class="w-6 h-6"></i>';
+      $("feedback-icon").className = `grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-[#17233d] ${correct ? "bg-[#55c4aa]" : "bg-[#ef6a5b]"}`;
+      $("feedback-title").textContent = correct ? "Harika! Doğru yanıt." : "Bu kez olmadı, birlikte öğrenelim.";
+      $("feedback-answer").textContent = "Doğru cevap: " + q.correctText;
+      $("feedback-explanation").textContent = q.explanation;
+      $("feedback-score").textContent = correct ? "Kazandığın puan: 10" : "Kazandığın puan: 0";
+      const reachedLimit = solvedCount >= Math.min(questionLimit, questions.length);
+      $("continue-button").classList.toggle("hidden", reachedLimit);
+      if (reachedLimit) $("finish-button").classList.add("sm:col-span-2");
+      else $("finish-button").classList.remove("sm:col-span-2");
+      lucide.createIcons();
+    }
+
+    function skipQuestion() {
+      if (!currentQuestion) return;
+      skippedCount++;
+      currentQuestion = null;
+      $("question-content").classList.add("hidden");
+      $("question-placeholder").classList.remove("hidden");
+      $("feedback-panel").classList.add("hidden");
+      $("check-button").classList.remove("hidden");
+      $("selected-label").textContent = "Soru atlandı. Yeni soru için çarkı döndür!";
+      $("wheel-center-text").innerHTML = "ÇARKI<br>DÖNDÜR";
+      updateProgress();
+    }
+
+    function continueGame() {
+      currentQuestion = null;
+      $("question-content").classList.add("hidden");
+      $("question-placeholder").classList.remove("hidden");
+      $("feedback-panel").classList.add("hidden");
+      $("check-button").classList.remove("hidden");
+      $("selected-label").textContent = "Yeni soru için çarkı döndür!";
+      $("wheel-center-text").innerHTML = "ÇARKI<br>DÖNDÜR";
+    }
+
+    function finishGame() {
+      if (solvedCount === 0) return;
+      const percentage = Math.round((correctCount / solvedCount) * 100);
+      let feedback = "";
+      if (percentage === 100) feedback = "Mükemmel! Kavramları dikkatle ayırt ettin; sınıfta örneklerinle öne çıkabilirsin.";
+      else if (percentage >= 70) feedback = "Çok iyi gidiyorsun! Birkaç kavramı tekrar ederek daha da güçlenebilirsin.";
+      else if (percentage >= 40) feedback = "İyi bir başlangıç! Açıklamalara dönüp fiilimsi eklerini ve ahenk unsurlarını yeniden gözden geçir.";
+      else feedback = "Her deneme öğrenmenin parçası. Doğru cevap açıklamalarını inceleyip yeni bir turda tekrar dene.";
+      $("result-name").textContent = `${studentName}, değerlendirme tamamlandı!`;
+      $("result-solved").textContent = solvedCount;
+      $("result-correct").textContent = correctCount;
+      $("result-skipped").textContent = skippedCount;
+      $("result-score").textContent = totalScore;
+      $("result-percent").textContent = percentage + "%";
+      $("result-feedback").textContent = feedback;
+      sessionScores.push({name: studentName, score: totalScore, correct: correctCount, solved: solvedCount, percentage});
+      renderScoreboard();
+      showScreen("results-screen");
+    }
+
+    function renderScoreboard() {
+      const list = $("scoreboard-list");
+      list.innerHTML = "";
+      [...sessionScores].reverse().forEach((entry, index) => {
+        const row = document.createElement("div");
+        row.className = "score-row flex items-center justify-between gap-3 p-4";
+        row.innerHTML = `<div><p class="font-extrabold">${entry.name}</p><p class="text-xs font-bold text-[#52617b]">${entry.correct}/${entry.solved} doğru · %${entry.percentage}</p></div><strong class="rounded-lg border-2 border-[#17233d] bg-[#f5b942] px-3 py-1">${entry.score} P</strong>`;
+        list.appendChild(row);
+      });
+    }
+
+    function newStudent() {
+      $("student-name").value = "";
+      $("name-error").classList.add("hidden");
+      showScreen("welcome-screen");
+      setTimeout(() => $("student-name").focus(), 200);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      buildWheelNumbers();
+      $("name-form").addEventListener("submit", beginActivity);
+      $("spin-button").addEventListener("click", spinWheel);
+      $("check-button").addEventListener("click", checkAnswer);
+      $("skip-button").addEventListener("click", skipQuestion);
+      $("continue-button").addEventListener("click", continueGame);
+      $("finish-button").addEventListener("click", finishGame);
+      $("new-student-button").addEventListener("click", newStudent);
+      lucide.createIcons();
+    });
+  </script>
+ 
+</body></html>
